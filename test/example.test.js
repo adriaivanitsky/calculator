@@ -6,7 +6,7 @@ import { add_two, add } from '../calculations.js';
 const test = QUnit.test;
 
 
-    test('test add_two function', (expect) => {
+test('test add_two function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     
