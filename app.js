@@ -10,7 +10,7 @@ const addButton = document.getElementById('add-button');
 // set event listeners 
 
 addButton.addEventListener('click', ()=>{
-  console.log('i am doing the clicking of the button');
+  //console.log('i am doing the clicking of the button');
 });
   // get user input
   // use user input to update state 
