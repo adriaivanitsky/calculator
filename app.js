@@ -19,7 +19,7 @@ const product = document.getElementById('product');
 const multiplyButton = document.getElementById('multiply-button');
 
 const divideInput1 = document.getElementById('divide-input-1');
-const divideInput2 = document.getElementById('divide-input-1');
+const divideInput2 = document.getElementById('divide-input-2');
 const quotient = document.getElementById('quotient');
 const divideButton = document.getElementById('divide-button');
 
@@ -61,9 +61,9 @@ multiplyButton.addEventListener('click', ()=>{
 });
 
 divideButton.addEventListener('click', ()=>{
-  const x = Number(divideInput1.value);
-  const y = Number(divideInput2.value);
+    const x = Number(divideInput1.value);
+    const y = Number(divideInput2.value);
 
-  const result = divide (x, y);
-  quotient.textContent = result;
+    const result = divide (x, y);
+    quotient.textContent = result;
 });
