@@ -33,3 +33,13 @@ test ('sub function', (expect =>{
     expect.equal(actual, expected);
 
 }));
+
+test ('multiply function', (expect =>{
+    const multiply1 = 5;
+    const multiply2 = 4;
+    const expected = 20;
+    const actual = multiply(multiply1, multiply2);
+    expect.equal(actual, expected);
+}));
+
+
