@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { add, sub } from './calculations.js';
+import { add, sub, multiply, divide } from './calculations.js';
 
 //addition
 const addInput1 = document.getElementById('add-input-1');
@@ -12,6 +12,19 @@ const subInput1 = document.getElementById('sub-input-1');
 const subInput2 = document.getElementById('sub-input-2');
 const difference = document.getElementById('difference');
 const subButton = document.getElementById('sub-button');
+
+const multiplyInput1 = document.getElementById('multiply-input-1');
+const multiplyInput2 = document.getElementById('multiply-input-2');
+const product = document.getElementById('multiply-button');
+const multiplyButton = document.getElementById('multiply-button');
+
+const divideInput1 = document.getElementById('divide-input-1');
+const divideInput2 = document.getElementById('divide-input-1');
+const quotient = document.getElementById('divide-button');
+
+
+
+
 
 
 
@@ -36,4 +49,12 @@ subButton.addEventListener('click', ()=>{
 
     const result = sub (x, y);
     difference.textContent = result;
+});
+
+multiplyButton.addEventListener('click', ()=>{
+    const x = Number(multiplyInput1.value);
+    const y = Number(subInput2.value);
+
+    const result = multiply (x, y);
+    product.textContent = result;
 });
