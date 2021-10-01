@@ -32,7 +32,7 @@ test ('sub function', (expect =>{
     const actual = sub(sub1, sub2);
     expect.equal(actual, expected);
 
-}));
+});
 
 test ('multiply function', (expect =>{
     const multiply1 = 5;
@@ -40,7 +40,7 @@ test ('multiply function', (expect =>{
     const expected = 20;
     const actual = multiply(multiply1, multiply2);
     expect.equal(actual, expected);
-}));
+});
 
 test ('divide function'), (expect =>{
     const divide1 = 20;
