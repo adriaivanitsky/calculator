@@ -1,4 +1,4 @@
-import { add } from '../calculations.js';
+import { add, sub, multiply, divide } from '../calculations.js';
 
 const test = QUnit.test;
 
@@ -15,3 +15,18 @@ test('add function', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
+
+test('add function', (expect) =>{
+    const add1 = 3;
+    const add2 = 4;
+    const expected = 7;
+    const actual = add(add1, add2);
+    expect.equal(actual, expected);
+
+});
+
+
+
+// test('sub function'), (expect) => {
+//     const expected = 4
+//     const actual = 
