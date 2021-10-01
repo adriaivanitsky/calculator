@@ -54,13 +54,13 @@ subButton.addEventListener('click', ()=>{
 
 multiplyButton.addEventListener('click', ()=>{
     const x = Number(multiplyInput1.value);
-    const y = Number(subInput2.value);
+    const y = Number(multiplyInput2.value);
 
     const result = multiply (x, y);
     product.textContent = result;
 });
 
-divideButton.addEventListener('click', ()=.{
+divideButton.addEventListener('click', ()=>{
   const x = Number(divideInput1.value);
   const y = Number(divideInput2.value);
 
