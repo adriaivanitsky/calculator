@@ -25,8 +25,11 @@ test('add function', (expect) =>{
 
 });
 
+test ('sub function', (expect =>{
+    const sub1 = 7;
+    const sub2 = 4;
+    const expected = 3;
+    const actual = sub(sub1, sub2);
+    expect.equal(actual, expected);
 
-
-// test('sub function'), (expect) => {
-//     const expected = 4
-//     const actual = 
+}));
