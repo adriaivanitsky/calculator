@@ -42,4 +42,10 @@ test ('multiply function', (expect =>{
     expect.equal(actual, expected);
 }));
 
-
+test ('divide function'), (expect =>{
+    const divide1 = 20;
+    const divide2 = 4;
+    const expected = 5;
+    const actual = divide(divide1, divide2);
+    expect.equal(actual, expected);
+});
