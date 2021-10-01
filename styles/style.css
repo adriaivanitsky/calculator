@@ -14,3 +14,19 @@ h1 {
     color: brown;
     text-align: center;
 }
+
+#add-button {
+    border-radius: 50%;
+}
+
+#sub-button {
+    border-radius: 50%;
+}
+
+#multiply-button {
+    border-radius: 50%;
+}
+
+#divide-button {
+    border-radius: 50;
+}
