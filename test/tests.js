@@ -25,7 +25,7 @@ test('add function', (expect) =>{
 
 });
 
-test ('sub function', (expect =>{
+test ('sub function', (expect) =>{
     const sub1 = 7;
     const sub2 = 4;
     const expected = 3;
@@ -34,7 +34,7 @@ test ('sub function', (expect =>{
 
 });
 
-test ('multiply function', (expect =>{
+test ('multiply function', (expect) =>{
     const multiply1 = 5;
     const multiply2 = 4;
     const expected = 20;
@@ -42,7 +42,7 @@ test ('multiply function', (expect =>{
     expect.equal(actual, expected);
 });
 
-test ('divide function'), (expect =>{
+test ('divide function', (expect) =>{
     const divide1 = 20;
     const divide2 = 4;
     const expected = 5;
